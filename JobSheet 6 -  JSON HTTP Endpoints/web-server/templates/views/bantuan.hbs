@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantuan</title>
+    <link rel="icon" href="/img/cuaca.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <h2 class="judul-bantuan">Halaman Bantuan (FAQ)</h2>
+
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Halaman ini digunakan untuk apa?</h3>
+          <p>
+            Halaman ini berfungsi sebagai panduan bagi pengguna aplikasi “Cek Cuaca”.
+            Di sini dijelaskan tentang konsep API, layanan yang digunakan, dan cara kerja sistem 
+            untuk membantu pengguna memahami bagaimana aplikasi menampilkan informasi cuaca.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Apa itu API?</h3>
+          <p>
+            API (<i>Application Programming Interface</i>) adalah antarmuka yang memungkinkan
+            dua sistem atau aplikasi berbeda untuk saling berkomunikasi dan bertukar data. 
+            Dalam konteks aplikasi web, API berperan penting agar server bisa mengambil 
+            dan mengirimkan data ke aplikasi lain secara otomatis.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>API apa yang digunakan dalam aplikasi ini?</h3>
+          <p>
+            Aplikasi ini menggunakan dua layanan API, yaitu:
+          </p>
+          <ul>
+            <li><b>Mapbox API</b> – untuk mendapatkan koordinat (latitude dan longitude) dari nama lokasi yang dicari.</li>
+            <li><b>Weatherstack API</b> – untuk mendapatkan informasi cuaca berdasarkan koordinat dari Mapbox.</li>
+          </ul>
+        </div>
+
+        <div class="faq-item">
+          <h3>Salah satu pola arsitektur API adalah RESTful</h3>
+          <p>
+            RESTful API digunakan dalam aplikasi ini. Pola ini menggunakan prinsip <i>client-server</i>
+            dan metode HTTP (GET, POST, DELETE, PUT) untuk pertukaran data dalam format JSON.
+            REST dipilih karena efisien, mudah diintegrasikan, dan ringan untuk komunikasi antar aplikasi.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Diagram</h3>
+          <p>Berikut Diagaramnya:</p>
+          <img src="/img/restful.png" alt="Diagram" class="faq-image" />
+        </div>
+      </div>
+    </div>
+
+    {{>footer}}
+  </body>
+</html>

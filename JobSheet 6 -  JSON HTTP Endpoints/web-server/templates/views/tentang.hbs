@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{judul}}</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <h2 style="text-align:center; margin-top: 20px;">Tentang Saya</h2>
+
+      <div class="cv-container">
+        <div class="cv-photo">
+          <img src="/img/me.png" alt="Foto Profil" />
+        </div>
+
+        <div class="cv-info">
+          <h2>  Whenny Zenica</h2>
+          <p><b>Mahasiswa Teknik Informatika</b><br>Universitas Negeri Padang</p>
+          <p>
+            Saya merupakan individu yang memiliki ketertarikan tinggi terhadap pengembangan perangkat lunak, integrasi API, dan teknologi berbasis web. 
+            Saat ini saya aktif mempelajari pemrograman JavaScript (Node.js, Express) serta penerapan konsep REST API pada aplikasi berbasis web.
+          </p>
+
+          <div class="cv-section">
+            <h3>Keahlian</h3>
+            <ul>
+              <li>Web Development (HTML, CSS, JavaScript, Express.js)</li>
+              <li>Database Management (MySQL, MongoDB)</li>
+              <li>API Development & JSON Handling</li>
+              <li>Version Control (Git & GitHub)</li>
+            </ul>
+          </div>
+
+          <div class="cv-section">
+            <h3>Pendidikan</h3>
+            <p>Universitas Negeri Padang — S1 Teknik Informatika (2023 - Sekarang)</p>
+          </div>
+
+          <div class="cv-section">
+            <h3>Kontak</h3>
+            <p>Email: whenzennc@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/wheny-zenica-636397357" target="_blank">linkedin.com/in/WhennyZenica/a></p>
+            <p>GitHub: <a href="https://github.com/whyzenc" target="_blank">github.com/WhennyZenica</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{>footer}}
+  </body>
+</html>
