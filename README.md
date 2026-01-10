@@ -87,9 +87,7 @@ Pendekatan pembelajaran yang diterapkan menitikberatkan pada:
   <li>Jobsheet 4 → HTTP Request & API</li>
   <li>Jobsheet 5 → Web Server dengan Express.js</li>
   <li>Jobsheet 6 → JSON & REST Endpoint</li>
-  <li>Jobsheet 7 → Version Control & Deployment</li>
-  <li>Jobsheet 8 → Database NoSQL (MongoDB)</li>
-  <li>Jobsheet 9 → Socket Programming (Real-Time)</li>
+
 </ul>
 
 <hr>
