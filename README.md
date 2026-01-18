@@ -87,7 +87,9 @@ Pendekatan pembelajaran yang diterapkan menitikberatkan pada:
   <li>Jobsheet 4 → HTTP Request & API</li>
   <li>Jobsheet 5 → Web Server dengan Express.js</li>
   <li>Jobsheet 6 → JSON & REST Endpoint</li>
-
+  <li>Jobsheet 7 → Version Control & Deployment</li>
+  <li>Jobsheet 8 → Database NoSQL (MongoDB)</li>
+  <li>Jobsheet 9 → Socket Programming (Real-Time)</li>
 </ul>
 
 <hr>
@@ -195,6 +197,55 @@ Praktikum juga mencakup integrasi API eksternal untuk mengambil data lokasi dan 
 kemudian mengirimkannya kembali ke client dalam format JSON.
 Melalui jobsheet ini, mahasiswa memahami konsep dasar REST API serta cara membangun
 layanan backend yang dapat diakses oleh berbagai client.
+</p>
+
+<hr>
+
+<h3>🔹 Jobsheet 7 – Version Control, Git, dan Deployment</h3>
+<p align="justify">
+Jobsheet 7 membahas penggunaan <strong>Git</strong> sebagai
+<strong>Version Control System</strong> untuk mencatat dan mengelola perubahan kode
+selama proses pengembangan aplikasi.
+Mahasiswa mempelajari konsep repository, commit, branch, merge, serta penggunaan
+remote repository pada GitHub.
+</p>
+<p align="justify">
+Selain itu, jobsheet ini juga membahas proses <strong>deployment aplikasi Node.js</strong>
+ke platform cloud. Materi mencakup konfigurasi port dinamis menggunakan
+environment variable, penyesuaian script pada <code>package.json</code>,
+serta memastikan aplikasi dapat berjalan dengan baik di lingkungan produksi.
+</p>
+
+<hr>
+
+<h3>🔹 Jobsheet 8 – MongoDB and NoSQL Databases</h3>
+<p align="justify">
+Jobsheet 8 memperkenalkan <strong>MongoDB</strong> sebagai database
+<strong>NoSQL</strong> yang menyimpan data dalam bentuk dokumen.
+Mahasiswa mempelajari perbedaan database NoSQL dengan database relasional,
+serta memahami keunggulan MongoDB dalam menyimpan data berbasis JSON.
+</p>
+<p align="justify">
+Materi praktikum mencakup proses koneksi Node.js ke MongoDB, pembuatan database
+dan collection, serta operasi CRUD (Create, Read, Update, Delete).
+Melalui jobsheet ini, mahasiswa memahami bagaimana database NoSQL digunakan
+dalam pengembangan aplikasi backend modern yang fleksibel dan skalabel.
+</p>
+
+<hr>
+
+<h3>🔹 Jobsheet 9 – Socket Programming</h3>
+<p align="justify">
+Jobsheet 9 membahas konsep <strong>Socket Programming</strong> untuk membangun
+komunikasi dua arah secara <strong>real-time</strong> antara client dan server.
+Mahasiswa mempelajari perbedaan komunikasi berbasis HTTP dan WebSocket,
+serta konsep event-based communication.
+</p>
+<p align="justify">
+Implementasi dilakukan menggunakan <strong>Socket.IO</strong> dalam pembuatan
+aplikasi chat yang mendukung pengiriman pesan dan lokasi pengguna secara langsung.
+Melalui jobsheet ini, mahasiswa memahami bagaimana teknologi socket digunakan
+dalam aplikasi real-time seperti chat, notifikasi, dan sistem kolaborasi daring.
 </p>
 
 <hr>
